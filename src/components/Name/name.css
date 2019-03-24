@@ -1,0 +1,14 @@
+.animateX {
+    animation: fadeAndScale 0.3s ease-in;
+}
+
+@keyframes fadeAndScale {
+    from {
+        opacity: 0%;
+        transform: scale3d(0.5, 1, 1);
+    }
+    to {
+        opacity: 50%;
+        transform: scale3d(1, 1, 1);
+    }
+}
